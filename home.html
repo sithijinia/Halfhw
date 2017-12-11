@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HomePage</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+    </head>
+    <body>
+    
+
+         <nav class="navbar navbar-expand-sm navbar-light bg-info">
+            <div class="container">
+                <a href="" class="navbar-brand"><img src="images/my_logo.png" height="50px" width="50px"></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myManu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myManu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#myModal2">Login</a></li>
+                        <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#myModal1">Sign up</a></li>
+
+                    </ul>
+                    <form class="form-inline">
+                        <input type="search" name="search" class="form-control"/>
+                        <button type="submit" class="btn btn-success ml-2">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="modal fade" id="myModal1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Some heading</h3>
+                        <button class="close" data-dismiss="modal">
+                            &cross;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <form action="demo.html" method="post">
+                                        <div class="form-group">
+                                            <label for="firstName">First Name:</label>
+                                            <input type="text" name="first_name" id="firstName" class="form-control" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="lastName">Last Name:</label>
+                                            <input type="text" name="last_name" id="lastName" class="form-control" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email Address:</label>
+                                            <input type="email" name="email_address" class="form-control" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password:</label>
+                                            <input type="password" name="password" class="form-control" >
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label>Gender:</label>
+                                            <label><input type="radio" name="gender" value="male">Male</label>
+                                            <label><input type="radio" name="gender" value="female">Female</label>
+                                        </div>
+
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" name="agree" value="agree" class="form-check-label">I agree with all the terms & condition.
+                                            </label>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="submit" value="submit" class="btn btn-success btn-block">
+                                            </label>
+                                        </div>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+
+             <div class="modal fade" id="myModal2">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Some heading</h3>
+                        <button class="close" data-dismiss="modal">
+                            &cross;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <form action="demo.html" method="post">
+                                        
+                                        <div class="form-group">
+                                            <label>Email Address:</label>
+                                            <input type="email" name="email_address" class="form-control" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password:</label>
+                                            <input type="password" name="password" class="form-control" >
+                                        </div>
+
+                                    <div class="form-group">
+                                            <label>
+                                                <input type="submit" value="submit" class="btn btn-success btn-block">
+                                            </label>
+                                        </div>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="images/WebServices.jpg" class="card-img-top">
+
+
+                        </div>
+
+                        <div class="card-body">
+                            <h2 class="card-title" align="center">My Mission</h2>
+                             <p class="card-text" align="justify">My mission is to give web services to the people and make some changes to the society.I also want to encourage women to be more interested in different technologies so that they can also be a part of it. I make small step towards my goal by learning something new everyday. This learning curve makes me stronger than before. It also helps me to
+                             apply new things to my work.</p>
+                             <a class="btn btn-success">Read More....</a>
+                         
+                        </div>
+
+                    </div>
+
+            </div>
+
+
+
+
+
+            <div class="col-md-4">
+                <div class="card">
+                     <div class="card-header">
+                            <img src="images/vision.jpg" class="card-img-top">
+
+
+                        </div>
+
+                        <div class="card-body">
+                            <h2 class="card-title" align="center">My Vision</h2>
+                             <p class="card-text" align="justify">I want so see myself as an experienced web developer in any reputed company or under my country's government. I also want to grow myself as a diligent person.</p>
+                             <a class="btn btn-success">Read More....</a>
+                         
+                        </div>
+                    
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card">
+                     <div class="card-header">
+                            <img src="images/dream.jpg" class="card-img-top">
+
+
+                        </div>
+
+                        <div class="card-body">
+                            <h2 class="card-title" align="center">My Dream</h2>
+                             <p class="card-text" align="justify">My dream is to make living easier for those who continue fight for several essential things. I think making their life a little bit of easy will satisfy me for myself. I also want to be a role model for the female learners to make their way in productive sites of the society.</p>
+
+                             <a class="btn btn-success">Read More....</a>
+                         
+                        </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container text-center">
+            <p>&copy; Sabikun Nahar Sithi,2017</p>
+
+        
+    </div>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>
